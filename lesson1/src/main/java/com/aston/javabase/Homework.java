@@ -34,6 +34,14 @@ public class Homework {
             System.out.println(noDoubles[i]);
         }
     }
+    public static void getMyDistinctNumbers(int[] ints){
+        Set myHash = new HashSet();
+        for (int i = 0; i < ints.length; i++){
+            myHash.add(ints[i]);
+        }
+        System.out.println(myHash);
+        System.out.println(myHash);
+    }
 
     // Дан массив, заполненный уникальными значениями типа int.
     // int[] arr = {10, 15, 23, 11, 44, 13, 66, 1, 6, 47};

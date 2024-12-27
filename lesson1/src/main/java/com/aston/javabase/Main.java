@@ -10,6 +10,10 @@ public class Main {
         int[] ints = {1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9};
         task.getDistinctNumbers(ints);
 
+//        Этот методработает быстрее
+        int [] sec = ints.clone();
+        getMyDistinctNumbers(int[] ints);
+
 //        Задача 3
         int[] arr = {10, 15, 23, 11, 44, 13, 66, 1, 6, 47};
         Integer in = task.findSecondMaxElement(arr);
